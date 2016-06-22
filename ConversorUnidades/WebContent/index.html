@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Bem-vindo ao Conversor de Unidades de Comprimento!</h2>
+	<form action="conversorservlet" method="post">
+		Digite o valor a ser convertido:
+		<br /> <input type="text" name="metros" value="" size="25" />
+		<select name="unidadeDeEntrada">
+			 <option value="metros">metros</option>
+			 <option value="quilômetros">quilômetros</option>
+			 <option value="polegadas">polegadas</option>
+			 <option value="pés">pés</option>
+			 <option value="jardas">jardas</option>
+			 <option value="milhas">milhas</option>
+		</select>
+		<br /><br />Escolha a unidade para qual deseja converter:<br />
+		<select name="unidadeDeSaida">
+			 <option value="metros">metros</option>
+			 <option value="quilômetros">quilômetros</option>
+			 <option value="polegadas">polegadas</option>
+			 <option value="pés">pés</option>
+			 <option value="jardas">jardas</option>
+			 <option value="milhas">milhas</option>
+		</select>
+		<br /><br /><input type="submit" value="Submeter" />
+	</form>
+</body>
+</html>
